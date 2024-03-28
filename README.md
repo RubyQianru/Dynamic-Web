@@ -22,7 +22,7 @@ To develop this document, you can follow the steps provided below:
 
 ### Deployment
 
-This project is hosted on Glitch. Link - [https://coal-amazing-appliance.glitch.me]
+This project is hosted on Glitch. Link - [https://hello-world-by-ruby-qianru.glitch.me]
 
 ## Built with
 
@@ -34,6 +34,10 @@ HTML consists  of two div elements: A container of the background, and a contain
 # Notes & Process
 
 ## Process & Documentation
+
+1. Set up HTML and css file.
+2. Create DOM elements in HTML, set class or id for these elements.
+3. 
 
 ## Challenges & Struggles
 
