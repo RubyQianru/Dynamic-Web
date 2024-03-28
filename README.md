@@ -1,6 +1,6 @@
 # Dynamic Web Development
 
-Repo for Dynamic Web Development
+Repo for Dynamic Web Development. 
 
 ## Week 1 
 
@@ -17,13 +17,12 @@ A simplistic greeting website which features beautiful CSS animations.
 
 To develop this document, you can follow the steps provided below:
 1. Create a fork of this project on Github
-2.ping the author of this repo via Github Issues to see if they are looking for contributions on the specific feature you're looking to add
-3. Open the file in VS Code
-4. Click **Go Live** on the bottom right of your VS Code window 
+2. Open the file in VS Code
+3. Click **Go Live** on the bottom right of your VS Code window 
 
 ### Deployment
 
-This project is hosted on Glitch. Link - []
+This project is hosted on Glitch. Link - [https://coal-amazing-appliance.glitch.me]
 
 ## Built with
 
@@ -36,8 +35,9 @@ This project is hosted on Glitch. Link - []
 
 ## Challenges & Struggles
 
-1. CSS Animations
-2. 
+1. CSS & CSS Animations: I spent a lot of time to experiment the styling of the container class, and animation effects.
 
 ## Questions
 
+1. What is the logic behind CSS animations and how are they rendered? 
+2. Are there any other ways to implement animations?
