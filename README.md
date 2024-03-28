@@ -29,6 +29,8 @@ This project is hosted on Glitch. Link - [https://coal-amazing-appliance.glitch.
 * [VS Code](https://code.visualstudio.com/)
 * [Github](https://github.com)
 
+HTML consists  of two div elements: A container of the background, and a container of text.
+
 # Notes & Process
 
 ## Process & Documentation
