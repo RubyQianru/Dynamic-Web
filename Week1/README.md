@@ -37,7 +37,8 @@ HTML consists  of two div elements: A container of the background, and a contain
 
 1. Set up HTML and css file.
 2. Create DOM elements in HTML, set class or id for these elements.
-3. 
+3. Add stylings to DOM elements using CSS.
+4. Create animations and experiment with keyframes in the style sheet.
 
 ## Challenges & Struggles
 
