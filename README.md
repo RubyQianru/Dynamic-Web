@@ -1,10 +1,10 @@
-# Dynamic Web
+# Dynamic Web Development
 
-A simplistic 
+Repo for Dynamic Web Development
 
 ## Week 1 
 
-The Good Project Readme Project is a project about about how to make a good Readme so that you can keep your projects well documented and allow yourself and others to build on or learn from your work. The project is meant to be an example for others to learn by example and see what aspects might be necessary for a good readme.
+A simplistic greeting website which features beautiful CSS animations.
 
 ## Setup
 
@@ -35,6 +35,9 @@ This project is hosted on Glitch. Link - []
 ## Process & Documentation
 
 ## Challenges & Struggles
+
+1. CSS Animations
+2. 
 
 ## Questions
 
