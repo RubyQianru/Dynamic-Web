@@ -3,6 +3,17 @@ body {
   color: white;
 }
 
+nav {
+  height: 10vh;
+  position: fixed;
+  padding: 12px 20px;
+}
+
+footer {
+  height: 10vh;
+  padding: 12px 20px;
+}
+
 #subscription {
   text-align: center;
   z-index: 3;
@@ -17,6 +28,33 @@ input {
   padding: 10px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+}
+
+#hero {
+  position: relative;
+  height: 100vh;
+}
+
+#featureSection {
+  position: relative;
+  padding: 20px;
+  margin: 20px;
+}
+
+#featureSection img{
+  height: 300px;
+  padding: 20px;
+  margin: 20px;
+}
+
+#featureSection .featureText{
+  padding: 20px;
+  margin: 20px;
+}
+
+#featureSection .feature{
+  display: flex;
+  justify-content: space-between;
 }
 
 .container {
