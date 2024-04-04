@@ -33,7 +33,7 @@ To develop this document, you can follow the steps provided below:
 
 ### Deployment
 
-This project is hosted on Glitch. Link - [https://hello-world-by-ruby-qianru.glitch.me]
+This project is hosted on Glitch. Link - [https://week2-dynamic-web.glitch.me]
 
 ## Built with
 
@@ -53,9 +53,8 @@ HTML consists  of two div elements: A container of the background, and a contain
 
 ## Challenges & Struggles
 
-1. CSS & CSS Animations: I spent a lot of time to experiment the styling of the container class, and animation effects.
+1. CSS Layouts: I spent a lot of time working on getting the layout and positions right according to my design prototype.
 
 ## Questions
 
-1. What is the logic behind CSS animations and how are they rendered? 
-2. Are there any other ways to implement animations?
+1. How should I implement scroll animations?
