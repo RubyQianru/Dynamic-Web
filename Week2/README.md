@@ -17,7 +17,7 @@ A simplistic greeting website which features beautiful CSS animations.
 
 1. Wireframe
 
-<img src="https://github.com/RubyQianru/Dynamic-Web/assets/142470034/cd546148-ce7c-433b-916b-8496f0a3f72f" width="40">
+<img src="https://github.com/RubyQianru/Dynamic-Web/assets/142470034/cd546148-ce7c-433b-916b-8496f0a3f72f" width="400">
 
 ### Develop
 
