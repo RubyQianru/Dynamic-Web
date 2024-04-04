@@ -19,6 +19,11 @@ A simplistic greeting website which features beautiful CSS animations.
 
 <img src="https://github.com/RubyQianru/Dynamic-Web/assets/142470034/cd546148-ce7c-433b-916b-8496f0a3f72f" width="400">
 
+2. Design Prototype
+
+<img src="https://github.com/RubyQianru/Dynamic-Web/assets/142470034/daa75cad-e279-4c38-ad83-991fcee6aa7c" width="400">
+
+
 ### Develop
 
 To develop this document, you can follow the steps provided below:
