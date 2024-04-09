@@ -1,4 +1,4 @@
-const main = document.querySelector("main");
+const nytimesContainer = document.querySelector("#nytimesContainer");
 const list = document.createElement("ul");
 
 const searchInput = document.getElementById("searchInput");
@@ -12,8 +12,6 @@ async function fetchTopStories(input) {
         const response = await fetch(apiUrl)  
         const json = await response.json();
 
-        // console.log(json)
-
         const docs = json.response.docs
 
         for (const doc of docs) {
@@ -22,7 +20,7 @@ async function fetchTopStories(input) {
             list.appendChild(item);
         }
     
-        main.appendChild(list);
+        nytimesContainer.appendChild(list);
 
     }catch(error){
         console.log(error)
@@ -35,4 +33,10 @@ searchButton.addEventListener("click", () => {
     if (userInput) {
         fetchTopStories(userInput);
     }
+
+    window.scrollTo({
+        top: window.scrollY + window.innerHeight, 
+        behavior: 'smooth' 
+    });
+
   });
