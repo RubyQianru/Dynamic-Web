@@ -36,10 +36,9 @@ HTML consists  of two div elements: A container of the background, and a contain
 
 ## Process & Documentation
 
-1. Set up HTML and css file.
-2. Create DOM elements in HTML, set class or id for these elements.
-3. Add stylings to DOM elements using CSS.
-4. Create animations and experiment with keyframes in the style sheet.
+1. The html structure and css styling is based on week2's design.
+2. I used NY Times API to scrap relevant article titles based on users' input.
+3. I used fetch API as the tool to perform as
 
 ## Challenges & Struggles
 
