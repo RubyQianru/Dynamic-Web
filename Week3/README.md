@@ -39,7 +39,7 @@ HTML consists  of two div elements: A container of the background, and a contain
 1. Get NY Times API keys from NY Times Developers platform: Link - https://developer.nytimes.com/apis
 2. Use asynchronous functions to fetch data from NY Times API:
 
-'''javascript
+```javascript
 
 try{
         const response = await fetch(apiUrl)  
@@ -58,7 +58,7 @@ try{
     }catch(error){
         console.log(error)
     };
-'''
+```
 
 3. Process data received, and manipulate DOM with the processed data to present the titles received.
 4. Add event listener to "learn more" button to enable scroll animation.
