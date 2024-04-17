@@ -36,10 +36,11 @@ HTML consists  of two div elements: A container of the background, and a contain
 
 ## Process & Documentation
 
-1. Get NY Times API keys from NY Times Developers platform: (Link)[https://developer.nytimes.com/apis]
+1. Get NY Times API keys from NY Times Developers platform: Link - https://developer.nytimes.com/apis
 2. Use asynchronous functions to fetch data from NY Times API:
 
 '''javascript
+
 try{
         const response = await fetch(apiUrl)  
         const json = await response.json();
