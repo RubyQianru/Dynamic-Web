@@ -12,6 +12,7 @@ A simplistic greeting website which features beautiful CSS animations.
 
 1. A text editor - preferably [VS Code](https://code.visualstudio.com/)
 2. Live Server - Install Live Server pluggin in your VS Code.
+3. Installed node.js, nodemon, express dependencies.
 
 
 ### Develop
@@ -19,7 +20,17 @@ A simplistic greeting website which features beautiful CSS animations.
 To develop this document, you can follow the steps provided below:
 1. Create a fork of this project on Github
 2. Open the file in VS Code
-3. Click **Go Live** on the bottom right of your VS Code window 
+3. Run the following command:
+
+```
+npx nodemon server.js
+```
+
+or
+
+```
+node server.js
+```
 
 ### Deployment
 
@@ -36,14 +47,10 @@ HTML consists  of two div elements: A container of the background, and a contain
 
 ## Process & Documentation
 
-1. The html structure and css styling is based on week2's design.
-2. I used NY Times API to scrap relevant article titles based on users' input.
-3. I used fetch API as the tool to perform as
+1. The frontend structure and styling is based on Week3's files.
 
 ## Challenges & Struggles
 
-1. CSS Layouts: I spent a lot of time working on getting the layout and positions right according to my design prototype.
 
 ## Questions
 
-1. How should I implement scroll animations?
