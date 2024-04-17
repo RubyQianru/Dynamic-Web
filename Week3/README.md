@@ -23,7 +23,7 @@ To develop this document, you can follow the steps provided below:
 
 ### Deployment
 
-This project is hosted on Glitch. Link - [https://week2-dynamic-web.glitch.me]
+This project is hosted on Glitch. Go to /Week3 folder after clicking the link. (Link)[https://dynamic-web-ruby-zhang.glitch.me/Week3]
 
 ## Built with
 
