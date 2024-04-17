@@ -2,7 +2,7 @@
 
 Repo for Dynamic Web Development. 
 
-## Week 3
+## Week 4
 
 A simplistic greeting website which features beautiful CSS animations.
 

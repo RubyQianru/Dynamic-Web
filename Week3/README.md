@@ -4,7 +4,7 @@ Repo for Dynamic Web Development.
 
 ## Week 3
 
-A simplistic greeting website which features beautiful CSS animations.
+A website that allows user to search for NY Times articles with input keywords.
 
 ## Setup
 
@@ -36,14 +36,37 @@ HTML consists  of two div elements: A container of the background, and a contain
 
 ## Process & Documentation
 
-1. The html structure and css styling is based on week2's design.
-2. I used NY Times API to scrap relevant article titles based on users' input.
-3. I used fetch API as the tool to perform as
+1. Get NY Times API keys from NY Times Developers platform: (Link)[https://developer.nytimes.com/apis]
+2. Use asynchronous functions to fetch data from NY Times API:
+
+'''js
+try{
+        const response = await fetch(apiUrl)  
+        const json = await response.json();
+
+        const docs = json.response.docs
+
+        for (const doc of docs) {
+            const item = document.createElement("li");
+            item.textContent = `${doc.abstract}`;
+            list.appendChild(item);
+        }
+    
+        nytimesContainer.appendChild(list);
+
+    }catch(error){
+        console.log(error)
+    };
+'''
+
+3. Process data received, and manipulate DOM with the processed data to present the titles received.
+4. Add event listener to "learn more" button to enable scroll animation.
 
 ## Challenges & Struggles
 
-1. CSS Layouts: I spent a lot of time working on getting the layout and positions right according to my design prototype.
+1. Data processing of the JSON data received from NY Times API. 
+2. Add event listener to button and allow the window to scroll when button is clicked.
 
-## Questions
+## Questions & Thoughts
 
 1. How should I implement scroll animations?
