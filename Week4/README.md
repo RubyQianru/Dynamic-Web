@@ -52,6 +52,7 @@ This project is hosted on Glitch. Link - [https://week2-dynamic-web.glitch.me]
 ## Challenges & Struggles
 
 1. Handling POST. 
+2. The development requires constant debugging using console.log, in order to accurately and correctly handle JSON formats.
 
 ## Questions
 
