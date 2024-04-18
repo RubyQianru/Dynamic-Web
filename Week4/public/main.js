@@ -16,18 +16,13 @@ async function fetchTopStories(input) {
             },
             body: JSON.stringify({ "input": input })
         })  
-        console.log(response);
         const json = await response.json();
+        const message = json.message
 
-        const docs = json.response.docs
-
-        for (const doc of docs) {
-            const item = document.createElement("li");
-            item.textContent = `${doc.abstract}`;
-            list.appendChild(item);
-        }
-    
-        nytimesContainer.appendChild(list);
+        const res = document.createElement("p");
+        res.textContent = `${message}`;
+        
+        nytimesContainer.appendChild(res);
 
     }catch(error){
         console.log(error)
