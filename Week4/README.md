@@ -4,7 +4,7 @@ Repo for Dynamic Web Development.
 
 ## Week 4
 
-A simplistic greeting website which features beautiful CSS animations.
+I simplistic "Ask NY Times" website that auto saves data from NY Times based on user inputs. 
 
 ## Setup
 
@@ -41,16 +41,17 @@ This project is hosted on Glitch. Link - [https://week2-dynamic-web.glitch.me]
 * [VS Code](https://code.visualstudio.com/)
 * [Github](https://github.com)
 
-HTML consists  of two div elements: A container of the background, and a container of text.
-
 # Notes & Process
 
 ## Process & Documentation
 
 1. The frontend structure and styling is based on Week3's files.
+2. I used npm package manager for managing plugins including express, cors, nodemon, etc.
+3. I created a POST route for scraping NY Times API, and save response data using JSON format. You may see the saved files in /data folder.
 
 ## Challenges & Struggles
 
+1. Handling POST. 
 
 ## Questions
 
