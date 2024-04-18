@@ -6,10 +6,17 @@ const searchButton = document.getElementById("searchButton");
 
 async function fetchTopStories(input) {
 
-    const apiUrl = `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${input}&api-key=Kvl02EpbnJeqzU6UpEiqXyBhnJvuQeGv`;
+    const apiUrl = "http://localhost:3000/nytimes";
 
     try{
-        const response = await fetch(apiUrl)  
+        const response = await fetch(apiUrl, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ "input": input })
+        })  
+        console.log(response);
         const json = await response.json();
 
         const docs = json.response.docs
