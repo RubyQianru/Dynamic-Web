@@ -14,7 +14,6 @@ I simplistic "Ask NY Times" website that auto saves data from NY Times based on 
 2. Live Server - Install Live Server pluggin in your VS Code.
 3. Installed node.js, nodemon, express dependencies.
 
-
 ### Develop
 
 To develop this document, you can follow the steps provided below:
